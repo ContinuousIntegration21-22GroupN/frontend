@@ -1,0 +1,9 @@
+table {
+    width: 80vw;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+tr {
+    border: solid;
+    border-width: 1px 0;
+}
