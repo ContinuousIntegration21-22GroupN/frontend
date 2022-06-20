@@ -398,5 +398,6 @@ describe('fetchAndDisplay', function () {
 
     expect(window.alert).toHaveBeenCalledTimes(1)
     expect(window.alert).toHaveBeenCalledWith(alertErrorMessage)
+    expect(false).toBe(true);
   })
 })
