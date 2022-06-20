@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server src",
     "lint": "npx eslint ./src",
-    "fix": "npx eslint --fix ./src",
     "test": "jest"
+,   "fix": "npx eslint --fix ./src",
+    "build": "docker build . -t ci_group_n_2022_frontend",
+    "start": "http-server src"
   },
   "repository": {
     "type": "git",
