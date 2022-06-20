@@ -78,6 +78,7 @@ jobs:
   deploy:
     needs: [lint, test]
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'
     steps:
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
