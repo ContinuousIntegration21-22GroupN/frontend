@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server",
-    "lint": "npx eslint .",
+    "start": "http-server src",
+    "lint": "npx eslint ./src",
+    "fix": "npx eslint --fix ./src",
     "test": "jest"
   },
   "repository": {

@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 
-const fetchAndDisplay = require('./populateTable')
+const fetchAndDisplay = require('../populateTable.js')
 const allCharactersUrl = 'http://localhost:3000/characters'
 const mockCharacterData = [
   {
