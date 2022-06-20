@@ -6,3 +6,4 @@ gitignore
 frontend.iml
 .idea
 InitContainers.bat
+src/test
