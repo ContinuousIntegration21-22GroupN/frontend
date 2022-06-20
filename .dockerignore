@@ -5,3 +5,4 @@ gitignore
 .eslintrc.json
 frontend.iml
 .idea
+InitContainers.bat
