@@ -24,7 +24,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/frontend:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/ci-group-n-2022-frontend:latest
 
   lint:
     runs-on: ubuntu-latest
