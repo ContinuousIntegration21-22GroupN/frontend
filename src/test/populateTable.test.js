@@ -322,7 +322,7 @@ describe('fetchAndDisplay', function () {
   beforeEach(function () {
     tableObject = {
       rows: []
-    };
+    }
   })
 
   beforeAll(() => {
