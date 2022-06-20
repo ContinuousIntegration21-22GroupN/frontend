@@ -11,6 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/ContinuousIntegration21-22GroupN/frontend.git"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -22,6 +23,8 @@
     "http-server": "^14.1.0"
   },
   "devDependencies": {
-    "jest": "^28.1.0"
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.1",
+    "jest-when": "^3.5.1"
   }
 }

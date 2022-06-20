@@ -1,14 +1,11 @@
 const allCharactersUrl = "http://localhost:3000/characters";
-fetchAndDisplay(allCharactersUrl);
 
-
-async function fetchAndDisplay(url) {
+async function fetchAndDisplay(url = allCharactersUrl) {
     try {
-        fetch(url).then(res => {
+        await fetch(url).then(res => {
             res.json().then(jsonData => {
 
                 let table = document.getElementById("table");
-
                 jsonData.forEach(entry => {
                     let tableRow = table.insertRow();
 
