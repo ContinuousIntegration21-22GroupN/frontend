@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "http-server",
+    "lint": "npx eslint .",
     "test": "jest"
   },
   "repository": {
@@ -23,8 +24,14 @@
     "http-server": "^14.1.0"
   },
   "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.3",
+    "eslint-plugin-promise": "^6.0.0",
     "jest": "^28.1.0",
     "jest-environment-jsdom": "^28.1.1",
-    "jest-when": "^3.5.1"
+    "jest-when": "^3.5.1",
+    "standard": "^17.0.0"
   }
 }
