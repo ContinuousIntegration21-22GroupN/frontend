@@ -25,7 +25,6 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/frontend:latest
 
-
   lint:
     runs-on: ubuntu-latest
 
