@@ -8,14 +8,14 @@ async function fetchAndDisplay (url = allCharactersUrl) {
         jsonData.forEach(entry => {
           const tableRow = table.insertRow()
 
-          const nameRow = tableRow.insertCell(0);
+          const nameRow = tableRow.insertCell(0)
           nameRow.innerHTML = entry.characterName
 
           const actorNameRow = tableRow.insertCell(1)
           actorNameRow.innerHTML = entry.actorName
 
           const siblingRow = tableRow.insertCell(2)
-          siblingRow.innerHTML = entry.siblings?.join(', ') || 'Nosiblings'
+          siblingRow.innerHTML = entry.siblings?.join(', ') || 'No siblings'
 
           const killedRow = tableRow.insertCell(3)
           killedRow.innerHTML = entry.killed?.join(', ') || 'No kills'
