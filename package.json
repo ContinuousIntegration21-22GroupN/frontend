@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "npx eslint ./src",
-    "test": "jest"
-,   "fix": "npx eslint --fix ./src",
+    "test": "jest",
+    "fix": "npx eslint --fix ./src",
     "build": "docker build . -t ci_group_n_2022_frontend",
     "start": "http-server src"
   },
@@ -31,7 +31,6 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.2.3",
     "eslint-plugin-promise": "^6.0.0",
-    "jest": "^28.1.0",
     "jest-environment-jsdom": "^28.1.1",
     "standard": "^17.0.0"
   }
